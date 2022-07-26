@@ -1,0 +1,208 @@
+/* NAV BLANCO */
+
+#banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#navWhite {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  height: 34px;
+  top: 0;
+  left: 0;
+  background-color: #ffff;
+  opacity: 100%;
+  font-weight: 400;
+}
+
+#navWhite a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #37bbed;
+  text-decoration: none;
+}
+
+#navWhite .navActivo {
+  font-size: 14px;
+  font-weight: 600;
+  color: #030303;
+  text-decoration: none;
+}
+
+#proyectoDetalles {
+  padding-top: 60px;
+  padding-bottom: 0px;
+}
+
+/* CARDS */
+
+#proyectoDetalles label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#proyectoDetalles .headerCard {
+  background-color: #37bbed;
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 6px 6px 0px 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  font-size: 18px;
+  margin: 0px;
+  text-align: center;
+}
+
+#proyectoDetalles .cabecera {
+  background-color: #f2f2f2;
+}
+
+#proyectoDetalles .cabecera span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#proyectoDetalles .cabecera em {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#proyectoDetalles .bodyCard {
+  padding: 36px 48px;
+  font-size: 14px;
+}
+
+#proyectoDetalles .bodyCard img {
+    margin-bottom: 6px;
+  }
+
+#proyectoDetalles .bodyCard span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+#proyectoDetalles .btn-ver-azul i {
+  font-size: 14px !important;
+}
+
+#proyectoDetalles .footerCard p {
+  background-color: #37bbed;
+  border-radius: 0px 0px 6px 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin: 0px;
+}
+
+#proyecto-detalles-card .tarjeta-gris {
+  background-color: #f7f7f7;
+  height: 265px;
+  padding: 25px;
+  padding-bottom: 0px;
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 300;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+#proyecto-detalles-card .tarjeta-gris h5 {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#proyecto-detalles-card .tarjeta-ver-mas {
+  background-color: #f7f7f7;
+  padding: 25px;
+  text-align: end;
+}
+
+#proyecto-detalles-card .tarjeta-ver-mas a {
+  color: #0072bb;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* 2 TARJETA */
+
+#proyecto-detalles-card .tarjeta-gris-dos {
+  background-color: #f7f7f7;
+  height: 160px;
+  padding: 25px;
+  padding-bottom: 0px;
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 300;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+#proyecto-detalles-card .tarjeta-gris-dos h5 {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#proyecto-detalles-card .tarjeta-gris-imagen {
+    background-color: #f7f7f7;
+    height: 234px;
+    padding: 25px;
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+#proyecto-detalles-card  .p-aprobado{
+    color: #4FBB73;
+}
+
+#proyecto-detalles-card  .p-desaprobado{
+    color: #EF5350;
+}
+
+/* CONTACTO REDES */
+
+#contacto-redes hr {
+  width: 97%;
+  margin: auto;
+}
+
+#contacto-redes h3 {
+  font-size: 22px;
+  color: #333333;
+  font-weight: 600;
+  margin-bottom: 48px;
+}
+
+#contacto-redes img{
+    margin-bottom: 10px;
+}
+#contacto-redes a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  text-decoration: none;
+}
+
+#contacto-redes .volverProyectos a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  text-decoration: none;
+}
+/* Responsive */
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1400px) {
+}

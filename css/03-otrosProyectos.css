@@ -1,0 +1,143 @@
+/* TABLA CSS */
+
+#tablaDetalles table {
+  border-spacing: 0px 10px !important;
+  border-collapse: separate !important;
+}
+
+#tablaDetalles th {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0px 10px;
+  border: none;
+}
+
+#tablaDetalles td {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 14px 10px;
+  white-space: nowrap;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+#tablaDetalles tr td:last-child  {
+  border-right: 1px solid #e1e1e1 !important;
+  border-radius: 0px 6px 6px 0px !important;
+  padding: 8px 10px;
+}
+
+#tablaDetalles tr td a  {
+  text-decoration: none;
+  color: #0695D5 !important;
+  font-size: 20px;
+}
+
+#tablaDetalles tr td:first-child  {
+  border-left: 1px solid #e1e1e1 !important;
+  border-radius: 6px 0px 0px 6px !important;
+}
+
+/* MODAL RESUMEN */
+
+.modalMinisterio .modal-header {
+  background-color: #5eb9e8;
+  border: none;
+  padding: 20px 10px 0px 10px;
+}
+
+.modalMinisterio .modalTitulo h5 {
+  background-color: #5eb9e8;
+  padding: 0px 10px 20px 10px;
+  color: #ffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.modalMinisterio .modal-body {
+  font-size: 18px;
+  border: none;
+  padding: 40px 40px 0px 40px;
+}
+
+.modalMinisterio .modal-footer {
+  border: none;
+  padding: 40px;
+}
+
+.modalMinisterio .modal-content{
+  border-radius: 10px;
+}
+
+/* Responsive */
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (max-width: 768px) {
+
+  #tablaDetalles thead {
+    display: none !important;
+  }
+
+  #tablaDetalles td {
+    display: flex !important;
+    border: none !important;
+    max-width: 750px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #tablaDetalles tr td:first-child  {
+    border-left: none !important;
+    border-top: 6px solid #37BBED!important;
+    border-radius: 6px 6px 0px 0px !important;
+  }
+
+  #tablaDetalles tr td:last-child  {
+    border: none !important;
+    border-radius: 0px 0px 6px 6px !important;
+    padding: 8px 10px;
+    background-color: #37BBED;
+    justify-content: center;
+  }
+
+  #tablaDetalles tr td a  {
+    color: #FFFFFF !important;
+  }
+  
+  #tablaDetalles tr  {
+    max-width: 750px;
+  }
+
+  #tablaDetalles .limitar {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis !important;
+    max-width: 750px !important;
+  }
+
+  #contadorTabla{
+    font-size: 12px !important;
+  }
+}
+
+
+@media (max-width: 498px) {
+  #tablaDetalles td {
+    max-width: 350px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #tablaDetalles tr  {
+    max-width: 350px;
+  }
+
+  #tablaDetalles .limitar {
+    max-width: 350px !important;
+  }
+}

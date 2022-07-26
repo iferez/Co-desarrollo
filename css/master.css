@@ -1,0 +1,13 @@
+@import "0-variables.css";
+@import "00-header.css";
+@import "01-home.css";
+@import "02-proyectos.css";
+@import "03-otrosProyectos.css";
+@import "04-verProyecto.css";
+@import "05-formularios.css";
+@import "06-autodiagnostico.css";
+@import "07-perfil.css";
+@import "08-backoffice.css";
+@import "09-estadoProyecto.css";
+@import "99-alertas.css";
+

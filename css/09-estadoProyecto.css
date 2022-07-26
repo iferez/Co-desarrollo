@@ -1,0 +1,57 @@
+#estadoAdmin .componente-estado {
+  background-color: #f7f7f7;
+  padding: 40px 60px;
+}
+
+#estadoAdmin h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#rechazoDesc {
+  text-align: start !important;
+  display: block;
+  font-size: 14px;
+  font-family: 400;
+}
+
+#estadoAdmin p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#estadoAdmin hr {
+  width: 100% !important;
+}
+
+#inputVerde .form-check-input:checked[type="radio"] {
+  background-image: url(../img/checkverde.svg) !important;
+  background-color: #ffff !important;
+  border-color: #4fbb73 !important;
+}
+
+#inputRojo .form-check-input:checked[type="radio"] {
+  background-image: url(../img/checkrojo.svg) !important;
+  background-color: #ffff !important;
+  border-color: #ef5350 !important;
+}
+
+#inputVerde .form-check-input:focus[type="radio"] {
+  box-shadow: none;
+}
+
+#inputRojo .form-check-input:focus[type="radio"] {
+ box-shadow: none;
+}
+
+/* Responsive */
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1400px) {
+}

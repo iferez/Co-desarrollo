@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/icono-arg.css">
+
+    <title>Alta de proyecto</title>
+</head>
+
+<body>
+    <header id="header-ministerioDesarrollo">
+
+        <div class="container">
+            <div class="row">
+                <div id="headerColUno" class="col-8 d-flex align-items-center">
+                    <a href="#">
+                        <img src="img/logoMinisterioBlanco.svg" class="logoHeader" alt="Logo Ministerio">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <section>
+            <div id="banner" class="d-flex justify-content-center">
+                <div id="navWhite" class="row d-flex align-items-center">
+                    <div class="col-12 container">
+                        <a href="#">Inicio</a> <a href="#">/ Proyectos</a> <a href="#" class="navActivo">/ Alta nuevo
+                            proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="nuevoProyecto">
+            <div class="container">
+                <article class="row justify-content-center formulario mb-5">
+                    <div class="col-md-8 col-xxl-6">
+                        <h2>Alta Nuevo Proyecto</h2>
+                        <h4>Describí los antecedentes tecnológicos: contemplando estado del arte, situación actual de la
+                            tecnología.</h4>
+                        <hr>
+
+                        <form action="">
+                            <h3>01. Datos del proyecto</h3>
+                            <label class="form-label" for="">Título del proyecto</label>
+                            <input class="form-control" type="text" name="" id="">
+
+                            <label class="form-label" for="">Resumen del proyecto</label>
+                            <textarea class="form-control-area" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <p class="mb-4">El mínimo es de 250 caracteres, te faltan:</p>
+
+                            <label class="form-label" for="">Localización del proyecto</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Seleccione</option>
+                            </select>
+
+                            <label class="form-label" for="">Seleccioná en qué sector productivo de la economía del
+                                conocimiento se enmarca tu proyecto. (Podés agregar varios sectores productivos)</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Seleccione</option>
+                            </select>
+
+                            <label class="form-label" for="">Describí el objetivo central de la propuesta y cuál es el
+                                problema que intenta resolver.</label>
+                            <textarea class="form-control-area" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <p class="mb-4">El mínimo es de 250 caracteres, te faltan:</p>
+
+                            <label class="form-label" for="">Facebook</label>
+                            <input class="form-control" type="text" name="" id="">
+
+                            <label class="form-label" for="">Sitio web</label>
+                            <input class="form-control" type="text" name="" id="">
+
+                            <label class="form-label" for="">E-mail</label>
+                            <input class="form-control" type="text" name="" id="">
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="" value="">
+                                <label class="form-check-label" for="">Acepto que se muestre en mi perfil</label>
+                            </div>
+
+                            <div class="separador text-white">-</div>
+
+                            <label class="form-label" for="">¿Conocés la viabilidad técnica del proyecto?</label>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="viabilidadResultado"
+                                    id="viabilidadSi" value="option1">
+                                <label class="form-check-label" for="si">Sí</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="viabilidadResultado"
+                                    id="viabilidadNo" value="option2" checked>
+                                <label class="form-check-label" for="no">No</label>
+                            </div>
+                            <br>
+
+                            <div id="detalleViabilidad" class="d-none">
+                                <label class="form-label" for="">Describí la viabilidad técnica: Contemplando la
+                                    solución
+                                    propuesta y la viabilidad técnica, explicar por qué es factible de aplicar desde un
+                                    punto de vista técnico-operativo.</label>
+                                <textarea class="form-control-area" id="exampleFormControlTextarea1"
+                                    rows="3"></textarea>
+                                <p class="mb-4">El mínimo es de 250 caracteres, te faltan:</p>
+                            </div>
+
+                            <label class="form-label" for="">¿Conocés los antecedentes tecnológicos?</label>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="antecedentesResultado"
+                                    id="antecedentesSi" value="option1">
+                                <label class="form-check-label" for="si">Sí</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="antecedentesResultado"
+                                    id="antecedentesNo" value="option2" checked>
+                                <label class="form-check-label" for="no">No</label>
+                            </div>
+                            <br>
+
+                            <div id="detalleAntecedentes" class="d-none">
+                                <label class="form-label" for="">Describí los antecedentes tecnológicos: contemplando
+                                    estado del arte, situación actual de la tecnología.</label>
+                                <textarea class="form-control-area" id="exampleFormControlTextarea1"
+                                    rows="3"></textarea>
+                                <p class="mb-4">El mínimo es de 250 caracteres, te faltan:</p>
+                            </div>
+
+                            <label class="form-label" for="">¿Tenés identificado el mercado objetivo?</label>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="mercadoResultado" id="mercadoSi"
+                                    value="option1">
+                                <label class="form-check-label" for="si">Sí</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="mercadoResultado" id="mercadoNo"
+                                    value="option2" checked>
+                                <label class="form-check-label" for="no">No</label>
+                            </div>
+                            <br>
+
+                            <div id="detalleMercado" class="d-none">
+                                <label class="form-label" for="">Describí el mercado objetivo actual de la empresa, y si
+                                    con
+                                    el Proyecto planifica expandirlo.</label>
+                                <textarea class="form-control-area" id="exampleFormControlTextarea1"
+                                    rows="3"></textarea>
+                                <p class="mb-4">El mínimo es de 250 caracteres, te faltan:</p>
+
+                                <label class="form-label" for="">Describí el cliente objetivo (identificación de la
+                                    cadena
+                                    de valor y su cliente objetivo)</label>
+                                <textarea class="form-control-area" id="exampleFormControlTextarea1"
+                                    rows="3"></textarea>
+                                <p class="mb-4">El mínimo es de 250 caracteres, te faltan:</p>
+
+                                <label class="form-label" for="">Describí la identificación de la competencia
+                                    (competidores
+                                    directos e indirectos y la participación del proyecto en el mercado en relación a
+                                    los
+                                    competidores)</label>
+                                <textarea class="form-control-area" id="exampleFormControlTextarea1"
+                                    rows="3"></textarea>
+                                <p class="mb-4">El mínimo es de 250 caracteres, te faltan:</p>
+                            </div>
+
+                            <hr>
+
+                            <h3>02. Propiedad intelectual</h3>
+                            <label class="form-label" for="">¿El desarrollo cuenta con protección de la propiedad
+                                intelectual?</label>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="propiedadResultado" id="propiedadSi" value="option1">
+                                <label class="form-check-label" for="si">Sí</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="propiedadResultado" id="propiedadNo" value="option2" checked>
+                                <label class="form-check-label" for="no">No</label>
+                            </div>
+                            <br>
+
+                            <div id="detallePropiedad" class="d-none">
+                                <label class="form-label" for="">Estado del avance de la propiedad intelectual.</label>
+                                <textarea class="form-control-area" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <p class="mb-4">El mínimo es de 250 caracteres, te faltan:</p>
+                            </div>
+
+                            <hr>
+
+                            <h3>03. Inversiones</h3>
+                            <label class="form-label" for="">¿El producto, la comercialización o la producción requieren
+                                alguna habilitación o certificado de registro de producto?</label>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inversionResultado" id="inversionSi" value="option1">
+                                <label class="form-check-label" for="si">Sí</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inversionResultado" id="inversionNo" value="option2" checked>
+                                <label class="form-check-label" for="no">No</label>
+                            </div>
+                            <br>
+
+                            <div id="detalleInversion" class="d-none">
+                                <label class="form-label" for="">Describí.</label>
+                                <textarea class="form-control-area" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <p class="mb-4">El mínimo es de 250 caracteres, te faltan:</p>
+                            </div>
+
+                            <label class="form-label" for="">¿El producto, ha recibido inversiones o premios?</label>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="premioResultado" id="premioSi" value="option1">
+                                <label class="form-check-label" for="si">Sí</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="premioResultado" id="premioNo" value="option2" checked>
+                                <label class="form-check-label" for="no">No</label>
+                            </div>
+                            <br>
+
+                            <div id="detallePremio" class="d-none">
+                                <label class="form-label" for="">Describí las inversiones o premios recibidos.</label>
+                                <textarea class="form-control-area" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <p class="mb-4">El mínimo es de 250 caracteres, te faltan:</p>
+                            </div>
+
+                            <hr>
+                            <!-- 
+                            <div class="row">
+                                <div class="col-4 text-start">
+                                    <button type="button" class="btn btn-volver">Cancelar</button>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <button type="button" class="btn btn-secondary">Guardar</button>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                        data-bs-target="#dobleCheck">Finalizar</button>
+                                </div>
+                            </div>
+                            -->
+
+                            <div class="col-12 text-end">
+                                <button type="button" class="btn btn-volver">Cancelar</button>
+                                <button type="button" class="btn btn-secondary mx-4">Guardar</button>
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                    data-bs-target="#dobleCheck">Finalizar</button>
+                            </div>
+
+                        </form>
+
+                        <!-- MODAL DOBLE CHECK -->
+                        <div class="modal fade" id="dobleCheck" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Se dará de alta el proyecto</h5>
+                                    </div>
+                                    <div class="modal-body regularFw">
+                                        ¿Estás seguro que deseás dar de alta el proyecto?
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cancelar</button>
+                                        <button type="button"
+                                            class="btn btn-success ms-3">Confirmar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <footer id="footer-ministerioDesarrollo">
+        <div class="container">
+            <div class="row">
+                <div id="footerColUno" class="col-8 d-flex align-items-center">
+                    <img src="img/logoMinisterioBlanco.svg" class="logoHeader" alt="Logo Ministerio">
+                </div>
+                <div id="footerColDos" class="col-4 text-end">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d741def0c1.js" crossorigin="anonymous"></script>
+    <script src="js/altaProyecto.js"></script>
+
+
+</body>
+
+</html>

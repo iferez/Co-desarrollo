@@ -1,0 +1,71 @@
+#perfil {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-color: #d7f1fb;
+}
+
+#perfil .perfilContenedor {
+  height: 75vh;
+}
+
+#perfil img {
+  border: 1px solid #37bbed80;
+  border-radius: 50%;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+#perfil h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+#perfil h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+#perfil h5 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+#perfil i {
+  font-size: 24px !important;
+}
+
+#perfil .fa-envelope {
+  font-size: 26px !important;
+  margin-right: 6px;
+}
+
+#perfil .icono-arg-telefono-lineal {
+  font-size: 30px !important;
+  margin-right: 6px;
+}
+
+#perfil .fa-phone {
+  margin-right: 6px;
+}
+
+#perfil .btn-success {
+  padding: 10px 50px !important;
+}
+
+/* Responsive */
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1800px) {
+  #perfil .perfilContenedor {
+    height: 70vh;
+  }
+}

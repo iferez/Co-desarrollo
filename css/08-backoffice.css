@@ -1,0 +1,154 @@
+.backoffice-h2{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* TABLA CSS */
+
+#tablaBackoffice table {
+    border-spacing: 0px 10px !important;
+    border-collapse: separate !important;
+  }
+  
+  #tablaBackoffice th {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 10px;
+    border: none;
+  }
+  
+  #tablaBackoffice td {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 14px 10px;
+    white-space: nowrap;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  
+  #tablaBackoffice tr td:last-child  {
+    border-right: 1px solid #e1e1e1 !important;
+    border-radius: 0px 6px 6px 0px !important;
+    padding: 8px 10px;
+  }
+  
+  #tablaBackoffice tr td a  {
+    text-decoration: none;
+    color: #0695D5 !important;
+    font-size: 20px;
+  }
+  
+  #tablaBackoffice tr td:first-child  {
+    border-radius: 6px 0px 0px 6px !important;
+  }
+
+  #tablaBackoffice .aprobada {
+    border-left: 8px solid #4FBB73 !important;
+  }
+
+  #tablaBackoffice .desaprobada {
+    border-left: 8px solid #EF5350 !important;
+  }
+
+  #tablaBackoffice .borrador {
+    border-left: 8px solid #999999 !important;
+  }
+
+  
+  /* Responsive */
+  
+  @media (min-width: 768px) {
+  }
+  
+  @media (min-width: 992px) {
+  }
+  
+  @media (max-width: 768px) {
+
+    #tablaBackoffice thead {
+      display: none !important;
+    }
+  
+    #tablaBackoffice td {
+      display: flex !important;
+      border: none !important;
+      max-width: 750px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    #tablaBackoffice tr td:first-child  {
+      border-left: none !important;
+      border-radius: 6px 6px 0px 0px !important;
+    }
+  
+    #tablaBackoffice tr td:last-child  {
+      border: none !important;
+      border-radius: 0px 0px 6px 6px !important;
+      padding: 8px 10px;
+      justify-content: center;
+    }
+  
+    #tablaBackoffice tr td a  {
+      color: #FFFFFF !important;
+    }
+    
+    #tablaBackoffice tr  {
+      max-width: 750px;
+    }
+
+    #tablaBackoffice .aprobada {
+      border-top: 8px solid #4FBB73 !important;
+    }
+  
+    #tablaBackoffice .desaprobada {
+      border-top: 8px solid #EF5350 !important;
+    }
+  
+    #tablaBackoffice .borrador {
+      border-top: 8px solid #999999 !important;
+    }
+
+    #tablaBackoffice .aprobadaResponsive{
+      background-color: #4FBB73;
+    }
+
+    #tablaBackoffice .desaprobadaResponsive{
+      background-color: #EF5350;
+    }
+
+    #tablaBackoffice .borradorResponsive{
+      background-color: #999999;
+    }
+  
+    #tablaBackoffice .limitar {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis !important;
+      max-width: 750px !important;
+    }
+  
+    #contadorTabla{
+      font-size: 12px !important;
+    }
+  }
+  
+  
+  @media (max-width: 498px) {
+    #tablaBackoffice td {
+      max-width: 350px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    #tablaBackoffice tr  {
+      max-width: 350px;
+    }
+  
+    #tablaBackoffice .limitar {
+      max-width: 350px !important;
+    }
+  }
+  
