@@ -172,6 +172,14 @@
   margin-bottom: 20px;
 }
 
+
+.raro{
+  font-size: 30px;
+}
+.material-symbols-outlined{
+  line-height: 0;
+}
+
 /* Responsive */
 
 @media (min-width: 768px) {
