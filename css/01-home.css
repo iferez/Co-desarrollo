@@ -1,3 +1,14 @@
+.subtitulo-login{
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 42px;
+}
+
+.clave-fiscal{
+  font-size: 14px;
+}
+
 #banner {
   position: relative;
   display: flex;
@@ -170,14 +181,6 @@
 
 #ingresarCard {
   margin-bottom: 20px;
-}
-
-
-.raro{
-  font-size: 30px;
-}
-.material-symbols-outlined{
-  line-height: 0;
 }
 
 /* Responsive */
